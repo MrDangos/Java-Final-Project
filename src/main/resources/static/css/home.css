@@ -86,3 +86,8 @@ img{
     width: 50%;
     height: auto;
 }
+.topMulti, .topSortForm{
+    display: flex;
+    align-items: row;
+    flex-direction: row;
+}

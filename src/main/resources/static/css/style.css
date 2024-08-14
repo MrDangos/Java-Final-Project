@@ -46,7 +46,6 @@ h1 {
     font-size: xxx-large;
 }
 
-
 #scores, #home {
     font-size: 50px;
     text-decoration: none;
@@ -110,4 +109,27 @@ img{
     align-items: row;
     flex-direction: row;
 }
+.top-scores-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
 
+.top-scores-multi, .top-scores-shortform {
+    margin: 0 20px;
+    text-align: left; 
+}
+
+
+ol {
+    list-style-position: inside;
+    padding-left: 0;
+    text-align: left; 
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
